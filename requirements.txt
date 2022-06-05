@@ -1,1 +1,12 @@
+beautifulsoup4==4.11.1
+bs4==0.0.1
+certifi==2022.5.18.1
+charset-normalizer==2.0.12
+cloudscraper==1.2.60
+idna==3.3
+pyparsing==3.0.9
+requests==2.27.1
+requests-toolbelt==0.9.1
+soupsieve==2.3.2.post1
+urllib3==1.26.9
 watchdog==2.1.8
