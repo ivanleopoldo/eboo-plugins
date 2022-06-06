@@ -24,5 +24,5 @@ class Scraper:
             browser = self.headers
         )
 
-    def cookSoup(self, url: str):
+    def cook_soup(self, url: str):
         return BeautifulSoup(self.scraper.get(url).content, 'lxml')

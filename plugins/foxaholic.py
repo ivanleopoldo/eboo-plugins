@@ -9,7 +9,7 @@ class Foxaholic(Base):
         self.scraper = Scraper(hostname)
 
     def search(self, keyword):
-        soup = self.scraper.cookSoup(search_url + keyword.lower().replace(" ", "+") + suffix)
+        soup = self.scraper.cook_soup(search_url + keyword.lower().replace(" ", "+") + suffix)
         
         try:
             search_results = soup.find("div", {"class": "c-tabs-item"}).find_all("div", {"class": "row c-tabs-item__content"})
