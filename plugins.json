@@ -1,5 +1,6 @@
 {
     "plugins": [
-        "foxaholic.py"
+        "foxaholic.py",
+        "ranobes.py"
     ]
 }
