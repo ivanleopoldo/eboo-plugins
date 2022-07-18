@@ -4,6 +4,7 @@ certifi==2022.5.18.1
 charset-normalizer==2.0.12
 cloudscraper==1.2.60
 idna==3.3
+lxml==4.9.1
 pyparsing==3.0.9
 requests==2.27.1
 requests-toolbelt==0.9.1

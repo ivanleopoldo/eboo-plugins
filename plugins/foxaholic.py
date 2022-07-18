@@ -8,7 +8,10 @@ class Foxaholic(Base):
     def __init__(self):
         self.scraper = Scraper(hostname)
 
-    def search(self, keyword):
+    def search(self, keyword: str):
+        if keyword == "":
+            return []
+
         soup = self.scraper.cook_soup(search_url + keyword.lower().replace(" ", "+") + suffix)
         
         try:
